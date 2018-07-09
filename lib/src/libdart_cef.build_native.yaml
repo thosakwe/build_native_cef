@@ -1,0 +1,14 @@
+sources:
+  - cef|lib/src/dart_cef.cc
+link:
+  - cef_dll_wrapper
+third_party:
+  cef:
+    git: https://bitbucket.org/chromiumembedded/cef-project.git
+    target: cefclient
+    libraries:
+      - libcef_dll_wrapper/libcef_dll_wrapper.a
+  cef_include:
+    git: https://bitbucket.org/chromiumembedded/cef.git
+    include:
+      - .

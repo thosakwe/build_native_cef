@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "build_native",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/opt/dart/libexec/include",
+                "${workspaceFolder}/.dart_tool/build_native/third_party/cef.cef_include"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
